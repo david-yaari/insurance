@@ -1,9 +1,9 @@
-import '../../app/globals.css';
-import Navigation from '@/components/Navigation';
-import {getTranslations, unstable_setRequestLocale} from 'next-intl/server';
-import {locales} from '@/config';
 import {ReactNode} from 'react';
+import {getTranslations} from 'next-intl/server';
+import {locales} from '@/config';
+import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
+import '../../app/globals.css';
 
 type Props = {
   children: ReactNode;
