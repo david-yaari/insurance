@@ -1,6 +1,6 @@
 {
   "IndexPage": {
-    "title": "next-intl example",
+    "title": "Welcome To Insurance App",
     "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes."
   },
   "PathnamesPage": {
@@ -16,15 +16,18 @@
     "description": "Please double-check the browser address bar or use the navigation to go to a known page."
   },
   "LocaleLayout": {
-    "title": "next-intl example"
+    "title": "Shahar Sheetrit Insurance",
+    "description": "Secure your future with Shahar Sheetrit Insurance. Our app provides easy access to a wide range of insurance services. Get quotes, manage your policies, and file claims right from your phone. Your peace of mind is our priority."
   },
   "LocaleSwitcher": {
     "label": "Change language",
-    "locale": "{locale, select, fr {🇩🇪 Français} en {🇺🇸 English} il {🇮🇱 עברית}other {Unknown}}"
+    "locale": "{locale, select, fr {🇫🇷 Français} en {🇺🇸 English} il {🇮🇱 עברית}other {Unknown}}"
   },
   "Navigation": {
     "home": "Home",
-    "pathnames": "Pathnames"
+    "how_we_work": "How we work",
+    "services": "Services",
+    "about_us": "About us"
   },
   "PageLayout": {
     "links": {

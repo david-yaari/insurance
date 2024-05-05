@@ -6,14 +6,14 @@ export default function Navigation() {
   const t = useTranslations('Navigation');
 
   return (
-    <div className='bg-slate-850'>
-      <nav className='container flex justify-between p-2 text-white'>
-        <div>
-          <NavigationLink href='/'>{t('home')}</NavigationLink>
-          <NavigationLink href='/pathnames'>{t('pathnames')}</NavigationLink>
-        </div>
-        <LocaleSwitcher />
-      </nav>
-    </div>
+    <nav className='flexBetween max-container padding-container relative z-30 py-5'>
+      <div className='flex'>
+        <NavigationLink href='/'>{t('home')}</NavigationLink>
+        <NavigationLink href='/how_we_work'>{t('how_we_work')}</NavigationLink>
+        <NavigationLink href='/services'>{t('services')}</NavigationLink>
+        <NavigationLink href='/about_us'>{t('about_us')}</NavigationLink>
+      </div>
+      <LocaleSwitcher />
+    </nav>
   );
 }

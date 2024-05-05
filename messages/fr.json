@@ -16,15 +16,18 @@
     "description": "Bitte überprüfe die Addressleiste deines Browsers oder verwende die Navigation um zu einer bekannten Seite zu wechseln."
   },
   "LocaleLayout": {
-    "title": "next-intl Beispiel"
+    "title": "next-intl Beispiel",
+    "description": "Secure your future with Shahar Sheetrit Insurance. Our app provides easy access to a wide range of insurance services. Get quotes, manage your policies, and file claims right from your phone. Your peace of mind is our priority."
   },
   "LocaleSwitcher": {
     "label": "Sprache ändern",
-    "locale": "{locale, select, fr {🇩🇪 Français} en {🇺🇸 English} il {🇮🇱 עברית}other {Unknown}}"
+    "locale": "{locale, select, fr {🇫🇷 Français} en {🇺🇸 English} il {🇮🇱 עברית}other {Unknown}}"
   },
   "Navigation": {
-    "home": "Start",
-    "pathnames": "Pfadnamen"
+    "home": "Accueil",
+    "how_we_work": "Comment on travaille",
+    "services": "Services",
+    "about_us": "À propos de nous"
   },
   "PageLayout": {
     "links": {

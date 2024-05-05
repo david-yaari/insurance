@@ -1,3 +1,5 @@
+import Hero from '@/components/Hero';
+import Services from '@/components/Services';
 import {useTranslations} from 'next-intl';
 
 export default function Index() {
@@ -5,7 +7,8 @@ export default function Index() {
 
   return (
     <>
-      <h1>{t('title')}</h1>
+      <Hero />
+      <Services />
     </>
   );
 }
