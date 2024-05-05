@@ -3,7 +3,7 @@ module.exports = {
     node: true,
   },
   extends: [
-    'molindo/typescript',
+    // 'molindo/typescript',
     'molindo/react',
     'molindo/tailwind',
     'plugin:@next/next/recommended',
