@@ -3,9 +3,9 @@ module.exports = {
     node: true,
   },
   extends: [
-    // 'molindo/typescript',
-    // 'molindo/react',
-    // 'molindo/tailwind',
+    'molindo/typescript',
+    'molindo/react',
+    'molindo/tailwind',
     'plugin:@next/next/recommended',
   ],
   overrides: [
