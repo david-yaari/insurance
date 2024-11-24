@@ -1,8 +1,8 @@
-import {ReactNode} from 'react';
 import {getTranslations} from 'next-intl/server';
-import {locales} from '@/config';
-import Navigation from '@/components/Navigation';
+import {ReactNode} from 'react';
 import Footer from '@/components/Footer';
+import Navigation from '@/components/Navigation';
+import {locales} from '@/config';
 import '../../app/globals.css';
 
 type Props = {
@@ -15,13 +15,13 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({
-  params: {locale},
+  params: {locale}
 }: Omit<Props, 'children'>) {
   const t = await getTranslations({locale, namespace: 'LocaleLayout'});
 
   return {
     title: t('title'),
-    description: t('description'),
+    description: t('description')
   };
 }
 
@@ -30,7 +30,7 @@ export default function LocaleLayout({children, params: {locale}}: Props) {
     <html lang={locale}>
       <body>
         <Navigation />
-        <main className='relative overflow-hidden'>{children}</main>
+        <main className="relative overflow-hidden">{children}</main>
         <Footer />
       </body>
     </html>
